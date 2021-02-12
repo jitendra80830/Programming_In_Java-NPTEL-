@@ -5,7 +5,7 @@ public class Exersize11{
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the radius");
-		double perimeter;
+		double perimeter; 
 		double radius;
 		double area;
 		radius=sc.nextDouble();
