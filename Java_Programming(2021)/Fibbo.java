@@ -2,16 +2,16 @@
 import java.util.Scanner;
 
 public class Fibbo{
-	public static void main(Stringp[] args){
+	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Ebter no of term: ");
 		int n=sc.nextInt();
-		static int a=0,b=1,c;
 		System.out.print(a+" "+b);
 		Fibbo f=new Fibbo();
 		f.fib(n);
 	}
-	public void fib(i){
+	static int a=0,b=1,c;
+	public void fib(int i){
 		
 		if(i>=1){
 			
